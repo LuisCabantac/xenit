@@ -16,7 +16,13 @@ const renderMessages = function (message, type) {
 const getJSON = async function (url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`Something went wrong ${response.status}`);
-  return response.json();
+  else {
+    try {
+      return await response.json();
+    } catch (error) {
+      throw new Error(`Error parsing JSON: ${error.message}`);
+    }
+  }
 };
 
 const renderCurrencySymbols = async function (fromCurrency, toCurrency) {
