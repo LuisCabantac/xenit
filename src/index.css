@@ -56,11 +56,11 @@ label {
   padding: 1rem;
 }
 
-.main_container {
-  margin-top: 5rem;
+.container {
+  margin-top: 6rem;
 }
 
-.container {
+.conversion_section {
   align-items: center;
   margin: 0 auto;
   margin-top: 2rem;
@@ -205,16 +205,16 @@ a {
     font-size: 1rem;
   }
 
-  .main_container {
+  .container {
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 7rem;
   }
 
   .main_content {
     display: block;
   }
 
-  .container {
+  .conversion_section {
     width: 90%;
     padding: 0.4rem 1rem 0.4rem 0;
     height: 38ch;
