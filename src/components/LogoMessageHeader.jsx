@@ -8,11 +8,11 @@ export function LogoMessageHeader() {
     <div className="logo_message">
       <h1>
         <span className="x">X</span>enit
-        <span className="cur_conv"> Currency Converter</span>
       </h1>
       <p className="error_message" style={{ color: error ? "red" : "#ebebeb" }}>
         {error ? error : message ? message : "Currency converter"}
       </p>
+      <h2 className="cur_conv"> Currency Converter</h2>
     </div>
   );
 }
