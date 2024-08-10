@@ -8,4 +8,4 @@ Calculate exchange rates and stay updated on global currency fluctuations.
 
 ## Screenshots
 
-![xenit](https://github.com/user-attachments/assets/0b033ddc-50a8-4497-9bcb-748615f1cf6a)
+![Screenshot (1)~2](https://github.com/user-attachments/assets/9ce8b947-c071-41c9-9452-19b3b49b193d)
